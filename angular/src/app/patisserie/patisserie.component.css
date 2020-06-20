@@ -1,0 +1,18 @@
+.back{
+background-color: #EBEBEB;
+}
+img{
+    margin-top: 12px;
+    height: 14.5rem;
+    width: 100%;
+}
+h4{
+    text-decoration: underline;
+    color:#7b1800 ;
+}
+hr{
+    border: 1px solid #feb729;
+}
+.col-lg-4 {
+border: 2px solid #feb729;
+}

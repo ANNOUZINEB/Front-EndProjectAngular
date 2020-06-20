@@ -1,0 +1,72 @@
+<div class="back">
+<div class="container" style="border: 2px solide black;">
+    <div>
+        <h1  style="color: lightcoral;text-align: center;">  Les 6 meilleurs sites de recettes de cuisine :</h1>
+        <hr>
+        <article>
+            <h2><a href="https://www.marmiton.org/" style="color: lightcoral;"> Marmiton</a>
+            </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CNA_aiBjjtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><span>Le permier site de recettes</span>
+                Site de cuisine collaboratif : les recettes sont proposées par des membres du sites, puis évaluées par les internautes. Pour chaque recette sont indiqués la difficulté, le coût des ingrédients, le temps de préparation et de cuisson, les commentaires, etc. Vous y trouverez également des conseils et des vidéos de technique cuisine, classées par thème et niveau</p>
+            </article>
+            <hr width="50%">
+            <article>
+            <h2>750g</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EH0uq8EDjdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><span>77000 recettes de cuisine</span>
+                Propriété de Webedia (Allociné, Terrafemina, etc.) le site est  similaire à Marmiton.org avec davantage de recettes de spécialistes (chefs et blogueur cuisine)  et peut-être aussi de publicités… 750g a par ailleurs mis en place un indice de fiabilité des recettes, prenant en compte le nombre de photos, de commentaires positifs, etc.</p>
+            </article>
+            <hr width="50%">
+            <article>
+            <h2>CuisneAZ</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zQFezN19IGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><span>Recettes de cuisne de A à Z</span>
+
+                Site collaboratif également, très similaire à Marmiton.org et 750g.com. A choisir selon vos préférences, notamment en termes de design et navigation.</p>
+            </article>
+            <hr width="50%">
+            <article>
+                <h2>Cuisine actuelle</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xXr6_PmdxFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><span>Le site du magazine</span>
+                    Les recettes de cuisine de ce site sont proposées par des professionnels. Moins de recettes donc mais globalement plus qualitatives. Vous y trouverez également des recettes et des techniques de cuisine en vidéos (1 technique / 1 minute).</p>
+                </article>
+                <hr width="50%">
+                <article>
+                    <h2>Cuisine et Vins de France</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5iwVkz6JXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p><span>Le site du magazine</span>
+                        A l’instar de cuisine actuelle, vous trouverez ici un contenu de qualité. En plus des idées recettes, vous trouverez notamment une rubrique “Accords Mets et Vins” pour bien choisir que boire avec un plat, une viande ou un poisson. Pour les plus passionnés, retrouvez également une sélection par la rédaction des meilleurs blogs cuisine (les influenceurs).</p>
+                    </article>
+                    <hr width="50%">
+                    <article>
+                        <h2>Chef Simon</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7xlEbKeK8M4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p><span>Recettes, cours et techniques</span>
+                            L’approche est différentes des sites de recettes classiques : beaucoup sont en effet proposées par le chef Simon. Moins de recettes donc mais celles-ci sont bien décrites avec notamment des photos pour chaque étape de la préparation. Vous y trouverez également de nombreuses techniques de cuisine classées par catégorie.</p>
+                        </article>
+    </div>
+   
+</div>
+
+<div  class="container" style="border:2px solid #C0C0C0; background-color: gainsboro;">
+    <section class="box">
+        <h3>What's up?</h3>
+        
+        <textarea id="status" rows="3" style="width:900px;border-radius: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px;"   [(ngModel)]="comment" ></textarea>
+        
+        <button (click)="post()" class="btn btn-large btn-primary pull-right" type="submit" id="posting" value="Post">comment</button>
+        <hr>
+        <div style="width: 1000px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px;">
+        
+        <div *ngFor="let comments of postComment" style="border: 2px;">
+
+            <p >{{comments}}</p>
+
+
+        </div>
+    </div>
+    </section>
+
+</div>

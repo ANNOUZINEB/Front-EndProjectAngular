@@ -1,0 +1,38 @@
+img{
+    margin-top: 12px;
+    height: 14.5rem;
+    width: 100%;
+}
+h4{
+    color:#7b1800 ;
+    text-decoration: underline;
+}
+hr{
+    border: 1px solid #feb729;
+}
+.col-lg-4 {
+border: 2px solid #feb729;
+}
+span{
+    font-size: large;
+    font-family: cursive;
+    text-emphasis:inherit;
+}
+#showmore  {font-size: 16px;
+line-height: 16px;
+height: 32px;
+overflow: hidden;
+}
+.show {
+    overflow: visible;
+    height: auto;
+    overflow: hidden;
+  }
+  button{
+        padding: 14px 24px;
+        border-radius: 24px;
+        font-weight: 700;
+        letter-spacing : 1px;
+        text-transform: uppercase;
+    }
+  
